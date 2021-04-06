@@ -1,0 +1,1328 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+li{
+    float: left;
+    list-style-type:none ;
+    line-height:40px;
+    
+
+}
+ul{
+    float: right;
+    
+}
+a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.child{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    height: 45px;
+   
+}
+.premier{
+    background-image: url("./image/devmod.jpg") ;
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+    height: 630px;
+}
+div label{
+    color: white;
+     font-family:'Times New Roman', Times, serif; 
+    font-size: 25px;
+   
+    position: relative;
+    left: 30px;
+    
+}
+div sub{
+    color:tomato ;
+}
+li a:hover{
+    background-color: rgba(165,0,0,1);
+    padding: 15px;
+}
+
+.logo {
+    text-align: right;
+    position: relative;
+    top:18%;
+    right: 40px;
+}
+
+.logo h1{
+    font-size: 100px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    animation: text 6s 1;
+}
+.logo p{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.781);
+}
+.logo sup{
+    color: white;
+}
+
+@keyframes text{
+    0%{
+        color: rgb(233, 82, 55);
+margin-bottom: -60px;
+    }
+    30%{
+        letter-spacing: 30px;
+        margin-bottom: -10px;
+
+    }
+    85%{
+        letter-spacing: 1px;
+        margin-bottom: -30px;
+    }
+}
+
+
+
+/* secend */
+.secend{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img img{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 14px;
+        border-radius: 5%;
+        box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+}
+.defintion{
+      padding: 10px;
+        margin: 30px;
+}
+.defintion h1{
+text-align: center;
+color: tomato;
+font-size: 40px;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+
+.defintion h3{
+    text-align: center;
+    color: rgb(110, 110, 110);
+    font-size: 60px;
+    margin-bottom: 40PX;
+    font-family: 'Satisfy', cursive;
+    
+    
+    }
+    .defintion p{
+        text-align: center;
+        color: #222222;
+        word-wrap: break-word;
+        font-family: 'Noto Serif JP', serif;
+       
+    }
+    .secend1{
+     
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+      background-image:   linear-gradient(rgba(0, 0, 0, 0.9),transparent), url(./image/asdim2.jpg);
+      background-position: center;
+      margin-top: 90px;
+    }
+    .maps p {
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+    .maps h1{
+     
+        color: white;
+        font-size: 50px;
+
+
+    }
+
+    .maps button{
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.76);
+         width: 300px;
+
+
+    }
+    .maps button:hover{
+        background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+    }
+
+
+    #icon{
+        
+        width: 60px;
+        height: 60px;
+    }
+    .photosite{
+        margin-top: 120px;
+        text-align: center;
+        padding: 70px;
+        
+    }
+
+    .photoproduit{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+  
+        padding-left: 90PX;
+       
+    }
+
+    .photoasdim img{
+
+        width: 290px;
+        height: 290px;
+        padding-left: 10px;
+        border-radius: 50%;
+        box-shadow: 7px 7px 7px 1px gray;
+        background-color: rgb(10, 177, 10);
+      
+    }
+
+    .photoasdim img:hover{
+
+        padding-top: 10px;
+        background-color: black;
+      
+    }
+
+.plus{
+    text-align: center;
+    padding-top: 60px;
+}
+.plus1 {
+width: 90px;
+height: 90px;
+cursor: pointer;
+}
+
+.plus img:hover{
+   
+   background-color: rgb(10, 177, 10);
+   border-radius: 80%;
+}
+
+
+
+
+
+    .secend2{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+        background-image:   linear-gradient(rgba(0, 0, 0,0.9),transparent), url(./image/rst.jpg);
+        background-position: center;
+        margin-top: 90px;
+    }
+    .maps2 p {
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+    .maps2 h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+    .maps2 button{
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.9);
+       width: 300px;
+       cursor: pointer;
+    }
+    .maps2 button:hover{
+        background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+    }
+
+    .maps2 img{
+        margin-right: 15px;
+    }
+
+
+
+
+    /* google maps */
+
+
+   
+      .mapouter{
+        position:relative;
+        left: 30PX;
+      width:70%;
+     height:400px;
+     margin-top: 140px;
+     
+ }
+ .gmap_canvas 
+ {overflow:hidden;
+ background:none!important;
+ width:1300px;height:400px;
+ }
+ .gmap_iframe {
+     width:100%!important;
+     height:400px!important;
+     }
+                     
+/* fin google maps */
+
+.secend3{
+    display: grid;
+    grid-template-columns: auto auto;
+   margin-top: 100px;
+}
+.img3 img{
+    width: 500px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 14px;
+        border-radius: 5%;
+        box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+}
+.defintion3{
+      padding: 20px;
+        margin: 50px;   
+        border: 2px solid rgb(255, 255, 255);   
+        box-shadow: 5PX 5px 5px 5px rgb(207, 204, 204);
+
+}
+.defintion3 img {
+    position: relative;
+    left: 25%;
+   
+}
+
+.defintion3 p
+{
+  padding-top: 30px;
+    text-align: center;
+
+      
+}
+.resenli button{
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 210px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px black;
+}
+.resenli button:hover
+{
+padding: 5px;
+}
+
+
+
+
+.tel{
+    background-color: rgb(44, 40, 40);
+    color: white;
+}
+
+.tel img{
+    width: 50px; 
+    height: 50px;
+    position: relative;
+    left: 0PX;
+}
+
+.enligne{
+    background-color: rgb(173, 46, 46);
+    color: white;
+}
+.enligne img{
+    width: 50px; 
+    height: 50px;
+    position: relative;
+    left: 1PX;
+}
+
+
+/* vos evenment */
+.secend4{
+     
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding: 60px;
+  background-image:   linear-gradient(rgba(0, 0, 0, 2.1),transparent), url(./image/rst.jpg);
+background-repeat: repeat;
+  background-position:center;
+  margin-top: 90px;
+}
+.even p {
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+
+
+}
+.even h1{
+ 
+    color: white;
+    font-size: 50px;
+}
+.even button{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.76);
+width: 300px;
+}
+.even button:hover{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.emp{
+    background-color: black;
+    width: 100%;
+    height: 130px;
+    padding-top: 10px;
+    margin-top: 70px;
+    
+    
+}
+.emp p{
+    color: white;
+    text-align: center;
+    padding: 5px;
+ 
+}
+
+
+.social img{
+    width: 30px;
+    height: 30px;
+    color: tomato;
+}
+.social{
+    text-align: center;
+   padding-left: 15px;
+}
+
+.social img:hover{
+    padding-right: 13px;
+}
+
+
+
+
+
+
+/* media for phone */
+
+
+
+
+
+/* ---------------------media 2 -------------------*/
+
+@media only screen and(max-width: 200px)    and (max-width: 500px) 
+{
+    li{
+        float: left;
+        list-style-type:none ;
+        line-height:40px;
+        
+       
+    
+    }
+    ul{
+        float: right;
+       
+
+    }
+    a{
+        text-decoration: none;
+        margin: 0 10px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .child{
+        background-color: rgb(138, 18, 18);
+        opacity: 1;
+        height: 45px;
+       
+    }
+    .premier{
+        background-image: url("./image/devmod.jpg") ;
+        background-position: center;
+        background-repeat: repeat;
+        width: 100%;
+        height: 630px;
+    }
+    div label{
+        color: white;
+         font-family:'Times New Roman', Times, serif; 
+        font-size: 25px;
+       
+        position: relative;
+        left: 30px;
+        
+    }
+    div sub{
+        color:tomato ;
+    }
+    li a:hover{
+        background-color: rgba(165,0,0,1);
+        padding: 15px;
+    }
+    
+    .logo {
+        text-align: right;
+        position: relative;
+        top:18%;
+        right: 40px;
+    }
+    
+    .logo h1{
+        font-size: 100px;
+        color:white;
+        font-family: 'Open Sans', sans-serif;
+        animation: text 6s 1;
+    }
+
+
+
+
+
+
+
+
+    .logo h1{
+        margin-left: 20px;
+    }
+
+    .secend{
+        display: grid;
+        grid-template-columns: auto  ;
+       
+     
+    }
+    .defintion p{
+        
+        position: relative;
+        right: 30PX;
+    }
+    
+    .img img{
+        position: relative;
+        right: 60PX;
+       
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        border-radius: 14px;
+            border-radius: 5%;
+            box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+    }
+
+  
+  
+    
+.secend3{
+    display: grid;
+    grid-template-columns: auto ;
+   margin-top: 100px;
+
+}
+.img3 img{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    position: relative;
+    right: 100PX;
+    border-radius: 14px;
+        border-radius: 5%;
+        box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+}
+.defintion3{
+    
+      width: 70%;
+        position: relative;
+        left:50PX;  
+       
+         
+}
+.defintion3 img{
+    position: relative;
+        left:40PX;  
+}
+
+.resenli button{
+    position: relative;
+right: 70px;
+
+}
+.resenli button img{
+    position: relative;
+    left:-10PX
+}
+
+
+/* maps */
+
+
+.mapouter{
+    width: 50%;
+}
+
+.gmap_canvas 
+{overflow:hidden;
+background:none!important;
+width:400px;height:400px;
+position: relative;
+right: 60PX;
+
+}
+
+    /* fin maps */
+
+    .secend4{
+     
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        padding: 60px;
+       background-image:   linear-gradient(to top,rgba(0, 0, 0, 2.1),transparent),
+       url(./image/asdim2.jpg);
+       background-position: center;
+       margin-top: 90px;
+    }
+    .even p {
+        padding: 20px;
+        color: white;
+        font-size: 17px;
+    
+    
+    }
+    .even h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .secend2{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+        background-image:   linear-gradient(rgba(0, 0, 0,0.9),transparent), url(./image/asdim2.jpg);
+        background-position: center;
+        margin-top: 90px;
+    }
+    .maps2 p {
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+    .maps2 h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .emp{
+        background-color: black;
+        width: 100%;
+        height: 130px;
+     
+        padding-top: 10px;
+        margin-top: 70px;
+        
+        
+    }
+    .emp p{
+        color: white;
+        text-align: center;
+        padding: 5px;
+     
+    }
+    
+    
+    .secend1{
+     
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+      background-image:   linear-gradient(rgba(0, 0, 0, 0.9),transparent), url(./image/asdim2.jpg);
+      background-position: center;
+      margin-top: 90px;
+    }
+ 
+    .premier{
+  
+        width: 100%;
+        height: 679px;
+    }
+    .photoasdim img{
+margin-left: 10px;
+position: relative;
+right: 80PX;
+
+        
+    }
+   
+}
+
+
+
+
+
+
+
+
+/*----------------------------  media */
+
+/* media 22 */
+@media only screen and (min-width:500PX) and (max-width: 800px) 
+{
+    .logo h1{
+        margin-left: 20px;
+    }
+
+    .secend{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .img img{
+        width: 400px;
+        height: 300px;
+        margin-left: 100px;
+        border-radius: 14px;
+            border-radius: 5%;
+            box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+    }
+  
+    
+.secend3{
+    display: grid;
+    grid-template-columns: auto ;
+     margin-top: 100px;
+}
+.img3 img{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    margin-left: 140px;
+    border-radius: 14px;
+        border-radius: 5%;
+        box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+}
+.defintion3{
+      padding: 10px;
+        margin: 10px;   
+        margin-left: 10px;   
+}
+
+
+.resenli{
+    position: relative;
+    right: 50px;
+}
+
+/* maps */
+.mapouter{
+    position:relative;
+    left: 120px;
+    text-align:center;
+   width:400px;
+    height:400px;
+    margin-top: 140px;
+   
+}
+
+.gmap_canvas 
+{overflow:hidden;
+background:none!important;
+width:400px;height:400px;
+}
+
+    /* fin maps */
+
+    .secend4{
+     
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        padding: 60px;
+       background-image:   linear-gradient(to top,rgba(0, 0, 0, 2.1),transparent),
+       url(./image/asdim2.jpg);
+       background-position: center;
+       margin-top: 90px;
+    }
+    .even p {
+        padding: 20px;
+        color: white;
+        font-size: 17px;
+    
+    
+    }
+    .even h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .secend2{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+        background-image:   linear-gradient(rgba(0, 0, 0,0.9),transparent), url(./image/asdim2.jpg);
+        background-position: center;
+        margin-top: 90px;
+    }
+    .maps2 p {
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+    .maps2 h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .emp{
+        background-color: black;
+        width: 100%;
+        height: 130px;
+     
+        padding-top: 10px;
+        margin-top: 70px;
+        
+        
+    }
+    .emp p{
+        color: white;
+        text-align: center;
+        padding: 5px;
+     
+    }
+    
+    
+    .secend1{
+     
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+      background-image:   linear-gradient(rgba(0, 0, 0, 0.9),transparent), url(./image/asdim2.jpg);
+      background-position: center;
+      margin-top: 90px;
+    }
+ 
+    .premier{
+  
+        width: 100%;
+        height: 679px;
+    }
+    .photoasdim img{
+margin-left: 90px;
+        
+    }
+}
+
+/* media3 */
+
+@media only screen and (min-width:800PX) and (max-width: 1000px) 
+{
+    .logo h1{
+        margin-left: 20px;
+    }
+
+    .secend{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .img img{
+        width: 400px;
+        height: 300px;
+        margin-left: 30%;
+        border-radius: 14px;
+        border-radius: 5%;
+        box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+    }
+  
+    
+.secend3{
+    display: grid;
+    grid-template-columns: auto ;
+     margin-top: 100px;
+}
+.img3 img{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    margin-left: 30%;
+    border-radius: 14px;
+        border-radius: 5%;
+        box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+}
+.defintion3{
+      padding: 10px;
+        margin: 10px;   
+        margin-left: 10px;   
+}
+
+
+.resenli{
+    position: relative;
+    right: 50px;
+}
+
+/* maps */
+.mapouter{
+    position:relative;
+    left: 30%;
+    text-align:center;
+   width:400px;
+    height:400px;
+    margin-top: 140px;
+   
+}
+
+.gmap_canvas 
+{overflow:hidden;
+background:none!important;
+width:400px;height:400px;
+}
+
+    /* fin maps */
+
+    .secend4{
+     
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        padding: 60px;
+       background-image:   linear-gradient(to top,rgba(0, 0, 0, 2.1),transparent),
+       url(./image/asdim2.jpg);
+       background-position: center;
+       margin-top: 90px;
+    }
+    .even p {
+        padding: 20px;
+        color: white;
+        font-size: 17px;
+    
+    
+    }
+    .even h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .secend2{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+        background-image:   linear-gradient(rgba(0, 0, 0,0.9),transparent), url(./image/asdim2.jpg);
+        background-position: center;
+        margin-top: 90px;
+    }
+    .maps2 p {
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+    .maps2 h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .emp{
+        background-color: black;
+        width: 100%;
+        height: 130px;
+     
+        padding-top: 10px;
+        margin-top: 70px;
+        
+        
+    }
+    .emp p{
+        color: white;
+        text-align: center;
+        padding: 5px;
+     
+    }
+    
+    
+    .secend1{
+     
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+      background-image:   linear-gradient(rgba(0, 0, 0, 0.9),transparent), url(./image/asdim2.jpg);
+      background-position: center;
+      margin-top: 90px;
+    }
+ 
+    .premier{
+  
+        width: 100%;
+        height: 679px;
+    }
+    .photoasdim img{
+margin-left: 90px;
+        
+    }
+}
+
+/*  */
+@media only screen and (min-width:1000PX) and (max-width: 1200px) 
+{
+    .logo h1{
+        margin-left: 20px;
+    }
+
+    .secend{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .img img{
+        width: 400px;
+        height: 300px;
+        margin-left: 30%;
+        border-radius: 14px;
+            border-radius: 5%;
+            box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+           
+    }
+  
+    
+.secend3{
+    display: grid;
+    grid-template-columns: auto ;
+     margin-top: 100px;
+}
+.img3 img{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    margin-left: 30%;
+    border-radius: 14px;
+        border-radius: 5%;
+        box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+}
+.defintion3{
+      padding: 10px;
+        margin: 10px;   
+        margin-left: 10px;   
+}
+
+
+.resenli{
+    position: relative;
+    right: 50px;
+}
+
+/* maps */
+.mapouter{
+    position:relative;
+    left: 30%;
+    text-align:center;
+   width:400px;
+    height:400px;
+    margin-top: 140px;
+   
+}
+
+.gmap_canvas 
+{overflow:hidden;
+background:none!important;
+width:400px;height:400px;
+}
+
+    /* fin maps */
+
+    .secend4{
+     
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        padding: 60px;
+       background-image:   linear-gradient(to top,rgba(0, 0, 0, 2.1),transparent),
+       url(./image/asdim2.jpg);
+       background-position: center;
+       margin-top: 90px;
+    }
+    .even p {
+        padding: 20px;
+        color: white;
+        font-size: 17px;
+    
+    
+    }
+    .even h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .secend2{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+        background-image:   linear-gradient(rgba(0, 0, 0,0.9),transparent), url(./image/asdim2.jpg);
+        background-position: center;
+        margin-top: 90px;
+    }
+    .maps2 p {
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+    .maps2 h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .emp{
+        background-color: black;
+        width: 100%;
+        height: 130px;
+     
+        padding-top: 10px;
+        margin-top: 70px;
+        
+        
+    }
+    .emp p{
+        color: white;
+        text-align: center;
+        padding: 5px;
+     
+    }
+    
+    
+    .secend1{
+     
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+      background-image:   linear-gradient(rgba(0, 0, 0, 0.9),transparent), url(./image/asdim2.jpg);
+      background-position: center;
+      margin-top: 90px;
+    }
+ 
+    .premier{
+  
+        width: 100%;
+        height: 679px;
+    }
+    .photoasdim img{
+margin-left: 90px;
+        
+    }
+}
+
+/*  */
+
+@media only screen and (min-width:1200PX) and (max-width: 1330px) 
+{
+    .logo h1{
+        margin-left: 20px;
+    }
+
+    .secend{
+        display: grid;
+        grid-template-columns: auto  ;
+    }
+    .img img{
+        width: 400px;
+        height: 300px;
+        margin-left: 35%;
+        border-radius: 14px;
+            border-radius: 5%;
+            box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+           
+    }
+  
+    
+.secend3{
+    display: grid;
+    grid-template-columns: auto ;
+     margin-top: 100px;
+}
+.img3 img{
+    width: 400px;
+    height: 300px;
+    margin: 35px;
+    margin-left: 30%;
+    border-radius: 14px;
+        border-radius: 5%;
+        box-shadow: 5px 5px 7px 1px rgb(95, 94, 94);
+}
+.defintion3{
+      padding: 10px;
+        margin: 10px;   
+        margin-left: 10px;   
+}
+
+
+.resenli{
+    position: relative;
+    right: 50px;
+}
+
+/* maps */
+.mapouter{
+    position:relative;
+    left: 35%;
+    text-align:center;
+   width:400px;
+    height:400px;
+    margin-top: 140px;
+   
+}
+
+.gmap_canvas 
+{overflow:hidden;
+background:none!important;
+width:400px;height:400px;
+}
+
+    /* fin maps */
+
+    .secend4{
+     
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        padding: 60px;
+       background-image:   linear-gradient(to top,rgba(0, 0, 0, 2.1),transparent),
+       url(./image/asdim2.jpg);
+       background-position: center;
+       margin-top: 90px;
+    }
+    .even p {
+        padding: 20px;
+        color: white;
+        font-size: 17px;
+    
+    
+    }
+    .even h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .secend2{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+        background-image:   linear-gradient(rgba(0, 0, 0,0.9),transparent), url(./image/asdim2.jpg);
+        background-position: center;
+        margin-top: 90px;
+    }
+    .maps2 p {
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+    .maps2 h1{
+     
+        color: white;
+        font-size: 50px;
+    }
+
+    .emp{
+        background-color: black;
+        width: 100%;
+        height: 130px;
+     
+        padding-top: 10px;
+        margin-top: 70px;
+        
+        
+    }
+    .emp p{
+        color: white;
+        text-align: center;
+        padding: 5px;
+     
+    }
+    
+    
+    .secend1{
+     
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 60px;
+      background-image:   linear-gradient(rgba(0, 0, 0, 0.9),transparent), url(./image/asdim2.jpg);
+      background-position: center;
+      margin-top: 90px;
+    }
+ 
+    .premier{
+  
+        width: 100%;
+        height: 679px;
+    }
+    .photoasdim img{
+margin-left: 15%;
+        
+    }
+}
